@@ -8,12 +8,15 @@ const About = () => {
   const text = `Passionate about clean architecture
     I build scalable, high-performance solutions
     from prototype to production`;
-  const aboutText = `I'm a 21-year-old front-end developer based in India, passionate about crafting modern, high-performance web experiences. I specialize in building responsive, accessible interfaces with React, TypeScript, and the latest web technologies.
-When I'm not coding:
-⚡️ Exploring new JavaScript frameworks and open-source projects
-🎥 Sharing knowledge and connecting with the dev community online
-🧗 Tackling new challenges—both in code and in life
-🎸 Enjoying music and finding inspiration for my next project`;
+  const aboutText = `I'm a 21-year-old front-end developer from India, passionate about building high-performance, modern web experiences. I specialize in responsive, accessible interfaces with React, TypeScript, and cutting-edge technologies.
+
+My core skills:
+🟠 HTML5
+🔵 CSS (Tailwind CSS)
+🟡 JavaScript (ES6+)
+⚛️ React.js & Next.js
+🌊 GSAP (GreenSock Animation Platform)
+💡 Prompting & Modern JavaScript Libraries`;
   const imgRef = useRef(null);
   useGSAP(() => {
     gsap.to("#about", {
