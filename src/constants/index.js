@@ -1,78 +1,59 @@
 // index.js
 export const servicesData = [
   {
-    title: "FullStack Development",
+    title: "UI Engineering",
     description:
-      "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
+      "I build modern, responsive, and accessible interfaces using React, Vue, and TypeScript. My focus is on clean, maintainable code and pixel-perfect layouts.",
     items: [
       {
-        title: "Backend Engineering",
-        description: "(REST/GraphQL APIs, Microservices, Auth Systems)",
+        title: "Component Development",
+        description: "(Reusable UI components, Design Systems, Storybook)",
       },
       {
-        title: "Frontend Excellence",
-        description: "(React, Vue, TypeScript, Interactive UI/UX)",
+        title: "Styling & Theming",
+        description: "(Tailwind CSS, SCSS, CSS-in-JS, Dark Mode)",
       },
       {
-        title: "Database Design",
-        description: "(SQL/NoSQL Optimization, Scalable Structures)",
+        title: "Cross-Browser Compatibility",
+        description: "(Consistent look and feel across all major browsers)",
       },
     ],
   },
   {
-    title: "DevOps & Cloud Solutions",
+    title: "UX & Interaction Design",
     description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
+      "I create seamless user experiences with intuitive navigation, engaging animations, and a focus on accessibility for all users.",
     items: [
       {
-        title: "CI/CD Pipelines",
-        description: "(GitHub Actions, Docker, Kubernetes)",
+        title: "Responsive Design",
+        description: "(Mobile-first, Adaptive Layouts, Flexbox/Grid)",
       },
       {
-        title: "Server Management ",
-        description: "(Linux, Nginx, Load Balancing)",
+        title: "Microinteractions",
+        description: "(GSAP, Framer Motion, Hover/Click Effects)",
       },
       {
-        title: "Performance Tuning",
-        description: "(Caching, Compression, Lighthouse 90+ Scores)",
+        title: "Accessibility",
+        description: "(WCAG, ARIA, Keyboard Navigation)",
       },
     ],
   },
   {
-    title: "Security & Optimization",
+    title: "Performance & Quality",
     description:
-      "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
+      "I ensure fast load times, smooth interactions, and robust code through optimization and testing best practices.",
     items: [
       {
-        title: "Code Audits",
-        description: "(Refactoring, Tech Debt Cleanup)",
+        title: "Performance Optimization",
+        description: "(Code Splitting, Lazy Loading, Asset Optimization)",
       },
       {
-        title: "Pen Testing",
-        description: "(Vulnerability Assessments)",
+        title: "State Management",
+        description: "(Redux, Context API, Vuex, Zustand)",
       },
       {
-        title: "SEO Tech Stack",
-        description: "(SSR, Metadata, Structured Data)",
-      },
-    ],
-  },
-  {
-    title: "Web & Mobile Apps",
-    description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
-    items: [
-      {
-        title: "Cross-Platform Apps",
-        description: "(Single codebase for iOS/Android/Web)",
-      },
-      {
-        title: "PWAs",
-        description: "(Offline mode, Push Notifications)",
-      },
-      {
-        title: "E-Commerce",
-        description: "(Checkout flows, Payment Gateways, Inventory APIs)",
+        title: "Testing & QA",
+        description: "(Jest, React Testing Library, Cypress)",
       },
     ],
   },
@@ -171,11 +152,11 @@ export const projects = [
   },
 ];
 export const socials = [
-  { name: "Instagram", href: "https://www.instagram.com/ali.sanatidev/reels/" },
-  {
-    name: "Youtube",
-    href: "https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA",
-  },
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/ali-sanati/" },
-  { name: "GitHub", href: "https://github.com/Ali-Sanati" },
+  { name: "Instagram", href: "https://www.instagram.com/priyanshuy_10/" },
+  // {
+  //   name: "Youtube",
+  //   href: "https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA",
+  // },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/priyanshuy/" },
+  { name: "GitHub", href: "https://github.com/priyanshuyxdev" },
 ];
