@@ -144,7 +144,7 @@ const Navbar = () => {
             </p>
 
             <button
-              onClick={() => window.open("public/assets/PriyanshuYadav1.pdf", "_blank")}
+              onClick={() => window.open("/assets/PriyanshuYadav1.pdf", "_blank")}
               className=" cursor-pointer mt-4 px-6 py-2 bg-white/10 hover:bg-white/20 text-white border border-white/30 rounded-lg transition-all duration-300 hover:scale-105 tracking-wider"
             >
               Resume
