@@ -48,6 +48,7 @@ const Contact = () => {
               <p className="text-xl tracking-wider lowercase md:text-2xl lg:text-3xl">
                 priyanshuyxdev@gmail.com
               </p>
+              
             </div>
             <div className="social-link">
               <h2>Phone</h2>
@@ -72,6 +73,7 @@ const Contact = () => {
                     {social.name}
                     {" }"}
                   </a>
+                  
                 ))}
               </div>
             </div>

@@ -105,12 +105,27 @@ const Navbar = () => {
           {["home", "services", "about", "work", "contact"].map(
             (section, index) => (
               <div key={index} ref={(el) => (linksRef.current[index] = el)}>
-                <Link
+                {/* <Link
                   className="transition-all duration-300 cursor-pointer hover:text-white"
                   to={`${section}`}
                   smooth
                   offset={0}
                   duration={2000}
+                >
+                  {section}
+                </Link> */}
+                <Link
+                  className="transition-all duration-300 cursor-pointer hover:text-white"
+                  to={section}
+                  smooth
+                  offset={0}
+                  duration={2000}
+                  onClick={() => {
+                    // Close menu after click
+                    tl.current.reverse();
+                    iconTl.current.reverse();
+                    setIsOpen(false);
+                  }}
                 >
                   {section}
                 </Link>
@@ -127,6 +142,13 @@ const Navbar = () => {
             <p className="text-xl tracking-widest lowercase text-pretty">
               priyanshuyxdev@gmail.com
             </p>
+
+            <button
+              onClick={() => window.open("public/assets/PriyanshuYadav1.pdf", "_blank")}
+              className=" cursor-pointer mt-4 px-6 py-2 bg-white/10 hover:bg-white/20 text-white border border-white/30 rounded-lg transition-all duration-300 hover:scale-105 tracking-wider"
+            >
+              Resume
+            </button>
           </div>
           <div className="font-light">
             <p className="tracking-wider text-white/50">Social Media</p>
